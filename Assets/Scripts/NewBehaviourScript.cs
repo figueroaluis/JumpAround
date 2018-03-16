@@ -44,5 +44,11 @@ public class NewBehaviourScript : MonoBehaviour {
 
 	}
 
+	// if we hit the enemy, then we "die" and return to initial position
+	void OnTriggerEnter2D (Collider2D collider) {
+		if (collider.name == "EnemyDamage") {
+			transform.position = new Vector2 (2, 1);
+		}
+	}
 
 }
