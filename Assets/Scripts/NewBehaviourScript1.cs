@@ -36,4 +36,12 @@ public class NewBehaviourScript1 : MonoBehaviour {
 			rigidBody.velocity = new Vector2 (5, rigidBody.velocity.y);
 		}
 	}
+
+	// trigger for being defeated
+	void OnTriggerEnter2D (Collider2D collider) {
+		if (collider.name == "HeadStomper") {
+			Destroy (gameObject);		
+		}
+	}
+
 }
