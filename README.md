@@ -1,6 +1,7 @@
 ## Jump Around
 ### Getting to know the game engine Unity
-This is a simple obstacle game where a polygon jumps to avoid falling into the void.
+This is a simple obstacle game where a mario-like player jumps to avoid falling into the void.
+
 
 ### Images from Gameplay
 [image1]: ExampleImages/example_1.png
